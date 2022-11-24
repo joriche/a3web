@@ -29,7 +29,7 @@
 we could use this as our template https://joriche.github.io/index.html
 
 # Webpage Content
-# Homepage - contains descrip of consult buissness and our team (links to resumes) as well as links to all other pages
+## Homepage - contains descrip of consult buissness and our team (links to resumes) as well as links to all other pages
 ## Resume 1
 ## Resume 2
 ## Resume 3
