@@ -3,7 +3,7 @@
 # Distribution of workload
 
 ## Alex
-### 2 pages context/HTML - Week 12
+### 2 pages context/HTML Resume and surveying - Week 12
 ### Aesthetic and consistency - Week 13
 ### Design of logo - Week 13
 ### Comments for contributions - Week 14
