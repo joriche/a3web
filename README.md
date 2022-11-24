@@ -26,7 +26,7 @@
 ### jQuery - within Javascript file - Week 13
 ### Error checking - unused CSS, URLS, tags, spelling - Week 14
 ### Comments for contributions - Week 14
-we could use this as our template https://joriche.github.io/index.html
+# we could use this as our template https://joriche.github.io/index.html
 
 # Webpage Content
 ## Homepage - contains descrip of consult buissness and our team (links to resumes) as well as links to all other pages
