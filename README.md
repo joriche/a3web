@@ -4,13 +4,13 @@
 
 ## Alex
 ### 2 pages context/HTML - Week 12
-#### Homepage and programming page
 ### Aesthetic and consistency - Week 13
 ### Design of logo - Week 13
 ### Comments for contributions - Week 14
 
 ## Amanda
 ### 2 pages context/HTML - Week 12
+#### Homepage and programming page
 ### Javascript - its own file, in its own folder - Week 13
 ### Error checking - HTML/CSS/Java validators - Week 14
 ### Comments for contributions - Week 14
