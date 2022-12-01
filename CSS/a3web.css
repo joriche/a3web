@@ -9,7 +9,7 @@ body {
 /* hero-image, photo and picture apply specifically
 to the format on the three seperate pages, in order of 1, 2, 3.
 Each image is different, hense the slight variation in name */
-/* Justin add  max-width for responsive design */
+/* Justin added max-width for responsive design */
 
 .hero-image {
   background-image: url("Images/Greenhouse.jpg");
