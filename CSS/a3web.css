@@ -1,1 +1,141 @@
+/* body applies to all pages */
 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0)
+}
+
+/* hero-image, photo and picture apply specifically
+to the format on the three seperate pages, in order of 1, 2, 3.
+Each image is different, hense the slight variation in name */
+/* Justin added max-width for responsive design */
+
+.hero-image {
+  background-image: url("Images/Greenhouse.jpg");
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-photo {
+  background-image: url("Images/Water.jpg");
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-picture {
+  background-image: url("Images/Barn.jpg");
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* hero-text specifically applies to the image used for the background/header
+- with minor variations in text, but the format remains the same */
+
+.hero-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.6);
+  color: white;
+  font-weight: bold;
+  border: 3px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Though slightly convoluted, these classes apply to almost all the text on all pages
+and remain a formatting staple. Through trial and error, and minor variances, we got there */
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: rgb(0, 0, 0);
+}
+.all-browsers > h2, .browser {
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  color: rgb(255, 195, 0);
+  font-size: 100px;
+}
+.browser {
+  background: rgb(0, 0, 0);
+}
+.browser > h3, p {
+  text-align: center;
+  margin: 4px;
+  font-size: 70px;
+  color: rgb(255, 195, 0);
+}
+.browsers > h4 {
+  padding-top: 15px;
+  text-align: center;
+  margin: 4px;
+  font-size: 20px;
+  color: rgb(255, 195, 0);
+}
+
+/* Applies to all images - with the exception of the
+background/header hero-image, photo, picture mentioned previously */
+
+div.gallery {
+  margin: 25px;
+  float: left;
+  width: 400px;
+}
+div.gallery img:hover {
+  border: 1px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* List format, with a minor modification to colour when adapted from w3schools.
+They just do it so well, why can't we have it? Either way, it's yellow now */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(255, 195, 0);
+}
+
+/* Saving my butt to seprate text because Lord forbid
+I use a <br> tag >:| */
+
+.p-spacing {
+  padding-bottom: 75px;
+}
