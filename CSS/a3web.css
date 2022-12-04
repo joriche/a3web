@@ -74,7 +74,7 @@ and remain a formatting staple. Through trial and error, and minor variances, we
   margin: 10px;
   padding: 5px;
   color: rgb(255, 195, 0);
-  font-size: 100px;
+  font-size:10vw;
 }
 .browser {
   background: rgb(0, 0, 0);
@@ -82,14 +82,14 @@ and remain a formatting staple. Through trial and error, and minor variances, we
 .browser > h3, p {
   text-align: center;
   margin: 4px;
-  font-size: 70px;
+  font-size:0.7vw;;
   color: rgb(255, 195, 0);
 }
 .browsers > h4 {
   padding-top: 15px;
   text-align: center;
   margin: 4px;
-  font-size: 20px;
+  font-size: 0.2vw;
   color: rgb(255, 195, 0);
 }
 
