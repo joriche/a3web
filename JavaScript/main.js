@@ -6,7 +6,7 @@
   
 // Adapted from w3schools
 // Changes colour of title when mouse passes over 
-<h1 onmouseover="style.color='red'" onmouseout="style.color='black'">SQjr</h1>
+<h1 onmouseover="style.color='FFC300'" onmouseout="style.color='black'">SQjr</h1>
 
 // Adapted from w3schools
 // Changes html content upon event / clicking of button
