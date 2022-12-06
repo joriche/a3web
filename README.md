@@ -11,9 +11,9 @@
 
 ## Amanda
 ### 2 pages context/HTML - home and program - DONE 
-### Javascript - its own file, in its own folder
+### Javascript - its own file, in its own folder - DONE
 ### Error checking - HTML/CSS/Java validators
-### Comments for contributions
+### Comments for contributions - DONE
 
 ## Justin
 ### 2 pages context/HTML - remosens and survey
