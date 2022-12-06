@@ -1,28 +1,37 @@
-<!-- This page is reserved for Amanda Sawyer -->
+<!-- Content by Amanda -->
+<!-- Template from Josh -->
 
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- link to css style sheet and javascript file -->
+<!-- head/title used to define content at the top of the page-->
 <head>
 <title>SQjr Consulting</title>
 <link rel="stylesheet" href="CSS/a3web.css">
+<script src=JavaScript/main.js"></script>
+                               
+<!-- responsive design by Justin -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+<!-- div and article tags adapted from w3schools to create independent content -->  
+<!-- h1 and h3 used to create visual hiearchy of headings-->                                                                   
+                                                                   
 <!-- meta was referenced from w3schools, specifically from the
 image formatting css section that allowed me to crop the image
 to the top of the page, without affecting anything below -->
 
 <div class="hero-image">
+                       <!-- NEEDS IMAGE, REF FOR STYLE ABOVE -->
 <div class="hero-text">	  
 <h1>SQjr Consulting, Inc.</h1>
 <h3>GIS Services "Mapping the Future"</h3>
 </div>
 </div>
 
-<!-- the unordered html list tag was used to build a navigation bar that could be used on
-all three pages, while keeping with the original display. If it ain't broke, don't fix it
-- but make sure to reference that this was from w3schools with modifications applied in css -->
+<!-- unordered html list tag for the navigation bar, using Josh's HTML template which referenced w3schools-->
+<!-- CSS modifications applied to maintain style of page -->
 
 <ul>
 <li><a class="active" href="index.html">Home</a></li>
@@ -35,14 +44,15 @@ all three pages, while keeping with the original display. If it ain't broke, don
 <li><a href="databaseprinciples.html">Database</a></li>
 </ul>
 
+                                     
+<!-- differing classes, h2, h3 and p tags used to create different elements to select upon-->
+<!-- seperate repatative tags to create numerous lines of text-->                                   
+<!-- bold formatting from Josh's template to enhance text content -->
+                                     
 <article class="all-browsers">
 <h2><b>SQjr</b></h2>
 <h2 class="p-spacing"><b>Represent</b></h2>
 </article>
-
-<!-- This portion of text was unclear concerning whether or not I could
-define individual sentences by using the <p> tag, however I used this in
-conjuction with the bold element to make the text stand out more -->
 
 <article class="browser">
 <p><b>SQjr is a global GIS advisory firm specializing in database management, geovisulization, programming, remote sensing, spatial analysis, surveying, and web design. </b></p>
@@ -51,28 +61,23 @@ conjuction with the bold element to make the text stand out more -->
 <p><b>Rarely, we succeed.</b></p>
 <p class="p-spacing"><b>For more information on how SQjr can assist your GIS needs, see the above links</b></p>
 
-<p><b>During the battle, Rebel</b></p>
-<p><b>spies managed to steal secret</b></p>
-<p><b>plans to the Empire's</b></p>
-<p><b>ultimate weapon, the DEATH</b></p>
-<p><b>STAR, an armored space</b></p>
-<p><b>station with enough power to</b></p>
-<p class="p-spacing"><b>destroy an entire planet.</b></p>
+<h2>Our Team</h2>
+<h3><b>Amanda Sawyer</b></h3>
+<p><b>Programming princess</b></p>
+  <h3><b>Alex Quantz</b></h3>
+<p><b>Wild web designer and database dame </b></p>
+  <h3><b>Justin Jeff</b></h3>
+<p><b>Religous remote sensor and sad surveyor </b></p>
+  <h3><b>Joshua Richer</b></h3>
+<p><b>Geovisulization gangster and spineless spatial analyst </b></p>
+</article>
 
-<p><b>Pursued by the Empire's</b></p>
-<p><b>sinister agents, Princess</b></p>
-<p><b>Leia races home aboard her</b></p>
-<p><b>starship, custodian of the</b></p>
-<p><b>stolen plans that can save</b></p>
-<p><b>her people and restore</b></p>
-<p><b>freedom to the galaxy..."</b></p>
-<p class="p-spacing"><i>(WOOKIEEPEDIA, n.d.)</i></p>
-
-<!-- And yes, Star Wars was referenced, though the original credit should
-really be going to George Lucas, no more of this Disney shenanigans -->
-
-<h3>References</h3>
-<p><i>WOOKIEEPEDIA. (n.d.). Opening Crawl. Retrieved from Wookieepedia - The Star Wars Wiki: https://starwars.fandom.com/wiki/Opening_crawl</i></p>
+<!-- class created to employ javascript function from seperate js file, referenced above-->
+<!-- adapted from w3schools-->
+                    
+<article>
+<p id="javstxt">Click the button below to contact us.</p>
+<button type="button" onclick="changeTxt()">Click Me!</button>
 </article>
 
 </html>
