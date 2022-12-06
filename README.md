@@ -1,6 +1,7 @@
 # a3web - Group 4 Project - 8 Page GIS Consulting Website
 
 # Distribution of workload
+# PLS mark with DONE upon completion 
 
 ## Alex
 ### 2 pages context/HTML - web and data
@@ -9,7 +10,7 @@
 ### Comments for contributions
 
 ## Amanda
-### 2 pages context/HTML - home and program
+### 2 pages context/HTML - home and program - DONE 
 ### Javascript - its own file, in its own folder
 ### Error checking - HTML/CSS/Java validators
 ### Comments for contributions
