@@ -61,6 +61,21 @@ Each image is different, hense the slight variation in name */
   text-align: center;
   font-size: 1vw;
 }
+.img-text {
+  background-image: url("../Images/LOGO2.2.PNG");
+  background-repeat: no-repeat;
+  background-color: rgb(0,0,0);
+  border: 2px solid white;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, -0%);
+  z-index: 2;
+  width: 380px;
+  padding: 40px;
+  text-align: center;
+  font-size: 1vw;
+}
 
 /* Though slightly convoluted, these classes apply to almost all the text on all pages
 and remain a formatting staple. Through trial and error, and minor variances, we got there */
