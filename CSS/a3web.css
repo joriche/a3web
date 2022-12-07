@@ -62,25 +62,22 @@ Each image is different, hense the slight variation in name */
   font-size: 1vw;
 }
 .img-text {
-  background-image: url("../Images/LOGO2.2.PNG");
-  background-repeat: repeat;
-  background-color: rgb(0,0,0);
-  background-size: contain;
-  background-position: top left;
-  /* float: top; */
-  /* border: 2px solid white; */
-  
-
-  /* position: absolute; */
-  /* top: 0%;
-  left: 0%; */
-  /* transform: translate(0%, -420%); */
+  background-image: url(../Images/LOGO2.2.PNG);
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
   z-index: 2;
-  width: 380%;
-  height: 5%;
-  padding: 5%;
-  /* text-align: center;
-  font-size: 1vw; */
+  width: 380px;
+  text-align: center;
+  font-size: 1vw;
+  background-repeat: no-repeat;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial;
+  padding: 40px;
 }
 
 /* Though slightly convoluted, these classes apply to almost all the text on all pages
