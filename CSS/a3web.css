@@ -22,7 +22,7 @@ Each image is different, hense the slight variation in name */
   position: relative;
 }
 .hero-photo {
-  background-image: url("/Images/LOGO2.2.");
+  background-image: url("../Images/rtk.jpg");
   background-color: rgb(0, 0, 0);
   height: 500px;
   max-width: 100%;
