@@ -11,7 +11,7 @@ body {
 to the format on the three seperate pages, in order of 1, 2, 3.
 Each image is different, hense the slight variation in name */
 /* Justin added max-width for responsive design */
-
+/* hero-image used for home page background */
 .hero-image {
   background-image: url("../Images/yukonriver.jpg");
   background-color: rgb(0, 0, 0);
@@ -21,6 +21,7 @@ Each image is different, hense the slight variation in name */
   background-size: cover;
   position: relative;
 }
+/* hero-photo used for surveying page background */
 .hero-photo {
   background-image: url("../Images/rtk.jpg");
   background-color: rgb(0, 0, 0);
@@ -31,6 +32,7 @@ Each image is different, hense the slight variation in name */
   background-size: cover;
   position: relative;
 }
+/* hero-picture used for Remote Sensing page background */
 .hero-picture {
   background-image: url("../Images/helicopter.jpg");
   background-color: rgb(0, 0, 0);
