@@ -32,7 +32,7 @@ Each image is different, hense the slight variation in name */
   position: relative;
 }
 .hero-picture {
-  background-image: url("Images/Logo1.png");
+  background-image: url("../Images/helicopter.jpg");
   background-color: rgb(0, 0, 0);
   height: 500px;
   max-width: 100%;
