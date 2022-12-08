@@ -195,7 +195,7 @@ I use a <br> tag >:| */
 }
 
 /* Just centering our javascript/html button
-footer {
+.the-button {
   text-align: center;
   margin: 40px;
 }
