@@ -15,6 +15,8 @@ function changeClr(x) {
 }
 function normClr(x) {
   x.style-color='white'
+function normClr() {
+  style-color; 'white'
 }
 // Change text size function
 function bigTxt() {
