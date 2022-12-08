@@ -15,7 +15,7 @@ function changeClr(x) {
   x.style.color='red'
 }
 function normClr(x) {
-  x.style.color='black'
+  x.style.color='white'
 }
 
 // Alert function
