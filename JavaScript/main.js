@@ -1,5 +1,5 @@
 // By Amanda 
-// External javascript file to be referenced on index page
+// External javascript file to be referenced on index and programming page
 // Functions defined in javascript file, to be called in main html file
 // All adapted from w3schools
 
