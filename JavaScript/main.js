@@ -26,12 +26,11 @@ function inpt() {
   alert("Invalid address");
 }
 
-// Get number function
-// Gives number code
-function catyrs(event) {
-  document.getElementById("cat").innerHTML = event.keyCode;
-}
 
+
+
+
+// By Josh
 // Alert function for Geovisualization Page
 function meow() {
   alert("Have you seen my baseball?")
