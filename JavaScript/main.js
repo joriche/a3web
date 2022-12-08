@@ -17,11 +17,15 @@ function changeClr(x) {
 function normClr(x) {
   x.style.color='white'
 }
-
 // Alert functions
 // Causes alert upon event
 function alrt() {
   alert("JavaScript alert")
+}
+
+// Get number function
+function catyrs(event) {
+  document.getElementById("cat").innerHTML = event.keyCode;
 }
 <<<<<<< HEAD
 
@@ -34,6 +38,7 @@ function meow() {
 function meow() {
   alert("Have you seen my Dad?")
 }
+
 
 =======
 function inpt() {
