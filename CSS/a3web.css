@@ -138,16 +138,17 @@ and remain a formatting staple. Through trial and error, and minor variances, we
 
 /* List format, with a minor modification to colour when adapted from w3schools.
 They just do it so well, why can't we have it? Either way, it's yellow now */
-
+/* Josh owns ul code, Justin added font-size for responsive design */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  font-size: 1vw;
+  font-size: calc(8px + 1vw);
 }
 
+/* Justin owns the li code for the style of the nav bar */
 li {
   float: left;
 }
@@ -155,7 +156,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 46px;
+  padding: 14px 35.5px;
   text-decoration: none;
 }
 li a:hover {
