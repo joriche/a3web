@@ -36,8 +36,7 @@
 ### font-size: calc(8px + 1vw)
 ## NAVbar 
 ### set width to not stack at max size 
-## Take away <b> tags 
-### replace with CSS font-weight: bold 
-## Comment of code ownership
-## Move button to same line as paragraph 
+## Take away <b> tags - ALEX DOING
+## Comment of code ownership - EVERYONE PLS
+## Move button to same line as paragraph - AMANDA DOING
 ## Add 9 more Javascript 
