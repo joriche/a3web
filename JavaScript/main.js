@@ -10,11 +10,11 @@ function changeTxt() {
 }
 // Change color functions
 // Changes color of text upon event 
-function changeClr(x) {
-    background-color; rgb(255, 195, 0)
+function changeClr() {
+    style-color; rgb(255, 195, 0)
 }
-function normClr(x) {
-  x.style.color='white'
+function normClr() {
+  style-color='white'
 }
 // Change text size function
 function bigTxt() {
