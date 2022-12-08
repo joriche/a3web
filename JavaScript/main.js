@@ -16,6 +16,10 @@ function changeClr(x) {
 function normClr(x) {
   x.style.color='white'
 }
+// Change text size function
+function bigTxt() {
+  document.getElementById('big').style.fontSize='100px';
+}
 // Alert functions
 // Causes alert upon event
 function alrt() {
