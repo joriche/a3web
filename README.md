@@ -34,7 +34,7 @@
 ### nav bar unreadable when shrunk
 ### try min width, hamburger, min font size? 
 ### font-size: calc(8px + 1vw)
-##NAVbar 
+## NAVbar 
 ### set width to not stack at max size 
 ## Take away <b> tags 
 ### replace with CSS font-weight: bold 
