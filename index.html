@@ -1,90 +1,88 @@
-<!-- This page is reserved for Amanda Sawyer -->
+<!-- Content by Amanda -->
+<!-- Template from Josh -->
 
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- link to css style sheet and javascript file -->
+<!-- head/title used to define content at the top of the page-->
 <head>
 <title>SQjr Consulting</title>
 <link rel="stylesheet" href="CSS/a3web.css">
+                               
+<!-- responsive design by Justin -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+<body>
+<!-- div and article tags adapted from w3schools to create independent content -->  
+<!-- h1 and h3 used to create visual hiearchy of headings-->                                                                   
+                                                                   
 <!-- meta was referenced from w3schools, specifically from the
 image formatting css section that allowed me to crop the image
 to the top of the page, without affecting anything below -->
 
 <div class="hero-image">
+                       <!-- NEEDS IMAGE, REF FOR STYLE ABOVE -->
 <div class="hero-text">	  
-<h1>SQjr Consulting</h1>
-<h3>GIS Services</h3>
+<h1>SQjr Consulting, Inc.</h1>
+<h3>GIS Services "Mapping the Future"</h3>
 </div>
 </div>
 
-<!-- the unordered html list tag was used to build a navigation bar that could be used on
-all three pages, while keeping with the original display. If it ain't broke, don't fix it
-- but make sure to reference that this was from w3schools with modifications applied in css -->
+<div class="img-text">	  
+</div>
+
+<!-- unordered html list tag for the navigation bar, using Josh's HTML template which referenced w3schools-->
+<!-- CSS modifications applied to maintain style of page -->
 
 <ul>
 <li><a class="active" href="index.html">Home</a></li>
-<li><a href="secondary.html">Services</a></li>
-<li><a href="secondary.html">Surveying</a></li>
+<li><a href="surveying.html">Surveying</a></li>
 <li><a href="remotesensing.html">Remote Sensing</a></li>
-<li><a href="additional.html">Additional Resources</a></li>
+<li><a href="spatialanalysis.html">Spatial Analysis</a></li>
+<li><a href="geovisualization.html">Geovisualization</a></li>
+<li><a href="programming.html">Programming</a></li>
+<li><a href="webdesign.html">Web Design</a></li>
+<li><a href="databaseprinciples.html">Database Management</a></li>
 </ul>
 
+                                     
+<!-- differing classes, h2, h3 and p tags used to create different elements to select upon-->
+<!-- seperate repatative tags to create numerous lines of text-->                                   
+<!-- bold formatting from Josh's template to enhance text content -->
+                                     
 <article class="all-browsers">
-<h2><b>Episode IV</b></h2>
-<h2 class="p-spacing"><b>A NEW HOPE</b></h2>
+<h2 id="changeclr"><b>SQjr</b></h2>
+<h2 id="changeclr"><b>Home Page</b></h2>
 </article>
-
-<!-- This portion of text was unclear concerning whether or not I could
-define individual sentences by using the <p> tag, however I used this in
-conjuction with the bold element to make the text stand out more -->
 
 <article class="browser">
-<p><b>"It is a period of civil war.</b></p>
-<p><b>Rebel spaceships, striking</b></p>
-<p><b>from a hidden base, have won</b></p>
-<p><b>their first victory against</b></p>
-<p class="p-spacing"><b>the evil Galactic Empire.</b></p>
+<p><b>SQjr is a global GIS advisory firm specializing in database management, geovisulization, programming, remote sensing, spatial analysis, surveying, and web design. </b></p>
+<p><b>We serve a variety of clients, from private entities to public corporations in a wide range of industries</b></p>
+<p><b>We strive to provide our clients with expert advice, knowledge and understanding of the most current geographic information system techniques, and best in class solutions to complicated problems</b></p>
+<p><b>Rarely, we succeed.</b></p>
+<p class="p-spacing"><b>For more information on how SQjr can assist your GIS needs, see the above links</b></p>
 
-<p><b>During the battle, Rebel</b></p>
-<p><b>spies managed to steal secret</b></p>
-<p><b>plans to the Empire's</b></p>
-<p><b>ultimate weapon, the DEATH</b></p>
-<p><b>STAR, an armored space</b></p>
-<p><b>station with enough power to</b></p>
-<p class="p-spacing"><b>destroy an entire planet.</b></p>
-
-<p><b>Pursued by the Empire's</b></p>
-<p><b>sinister agents, Princess</b></p>
-<p><b>Leia races home aboard her</b></p>
-<p><b>starship, custodian of the</b></p>
-<p><b>stolen plans that can save</b></p>
-<p><b>her people and restore</b></p>
-<p><b>freedom to the galaxy..."</b></p>
-<p class="p-spacing"><i>(WOOKIEEPEDIA, n.d.)</i></p>
-
-<!-- And yes, Star Wars was referenced, though the original credit should
-really be going to George Lucas, no more of this Disney shenanigans -->
-
-<h3>References</h3>
-<p><i>WOOKIEEPEDIA. (n.d.). Opening Crawl. Retrieved from Wookieepedia - The Star Wars Wiki: https://starwars.fandom.com/wiki/Opening_crawl</i></p>
+<h4>Our Team</h4>
+<h3><b>Amanda Sawyer</b></h3>
+<p><b>Programming princess</b></p>
+  <h3><b>Alex Quantz</b></h3>
+<p><b>Wild web designer and database dame </b></p>
+  <h3><b>Justin Jeff</b></h3>
+<p><b>Religious remote sensor and sad surveyor </b></p>
+  <h3><b>Joshua Richer</b></h3>
+<p><b>Geovisulization gangster and spineless spatial analyst </b></p>
 </article>
+
+<!-- class created to employ javascript function from seperate js file, referenced above-->
+<!-- adapted from w3schools-->
+
+  <script>
+<p id="javstxt">Click the button below to contact us.</p>
+<button type="button" onclick="changeTxt()">Click Here!</button>
+  </script>
   
-<body>
-<!-- Testing ) -->
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p>This is an additional portion of text for testing purposes</p>
-<!-- Amanda - This is a test -->
-<!-- Justin was here 1 ) -->
-<!-- Josh Wasn't Here -->
-<!-- Justin was here 2 ) -->
-<!-- Justin was here ready for test ) -->
-<!-- Justin was here ready for test) -->
-<!-- Josh Wasn't Here  1) -->
-<!-- Josh is currently being tested -->
-<!-- Josh is the worst at being tested -->
+<script src="../JavaScript/main.js"></script>
 </body>
 </html>

@@ -3,26 +3,27 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(0, 0, 0)
+  background-color: rgb(0, 0, 0);
+  font-size:10vw;
 }
 
 /* hero-image, photo and picture apply specifically
 to the format on the three seperate pages, in order of 1, 2, 3.
 Each image is different, hense the slight variation in name */
 /* Justin added max-width for responsive design */
-
+/* hero-image used for home page background */
 .hero-image {
-  background-image: url("Images/Greenhouse.jpg");
+  background-image: url("../Images/yukonriver.jpg");
   background-color: rgb(0, 0, 0);
   height: 500px;
-  max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+/* hero-photo used for surveying page background */
 .hero-photo {
-  background-image: url("Images/Water.jpg");
+  background-image: url("../Images/rtk.jpg");
   background-color: rgb(0, 0, 0);
   height: 500px;
   max-width: 100%;
@@ -31,8 +32,20 @@ Each image is different, hense the slight variation in name */
   background-size: cover;
   position: relative;
 }
+/* hero-picture used for Remote Sensing page background */
 .hero-picture {
-  background-image: url("Images/Barn.jpg");
+  background-image: url("../Images/helicopter.jpg");
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* zero-picture used for Programming page background */
+.zero-picture {
+  background-image: url("../Images/view.png");
   background-color: rgb(0, 0, 0);
   height: 500px;
   max-width: 100%;
@@ -59,6 +72,26 @@ Each image is different, hense the slight variation in name */
   width: 50%;
   padding: 20px;
   text-align: center;
+  font-size: 1vw;
+}
+.img-text {
+  background-image: url(../Images/LOGO2.2.PNG);
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0%, 0%);
+  z-index: 2;
+  width: 190px;
+  height: 37px;
+  text-align: center;
+  font-size: 1vw;
+  background-repeat: no-repeat;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial;
+  background-size: contain;
 }
 
 /* Though slightly convoluted, these classes apply to almost all the text on all pages
@@ -74,7 +107,7 @@ and remain a formatting staple. Through trial and error, and minor variances, we
   margin: 10px;
   padding: 5px;
   color: rgb(255, 195, 0);
-  font-size: 100px;
+  font-size:4vw;
 }
 .browser {
   background: rgb(0, 0, 0);
@@ -82,14 +115,14 @@ and remain a formatting staple. Through trial and error, and minor variances, we
 .browser > h3, p {
   text-align: center;
   margin: 4px;
-  font-size: 70px;
-  color: rgb(255, 195, 0);
+  font-size:1.5vw;
+  color: silver;
 }
 .browsers > h4 {
   padding-top: 15px;
   text-align: center;
   margin: 4px;
-  font-size: 20px;
+  font-size: 0.2vw;
   color: rgb(255, 195, 0);
 }
 
@@ -118,7 +151,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  font-size: 1vw;
 }
+
 li {
   float: left;
 }
@@ -126,16 +161,32 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 46px;
   text-decoration: none;
 }
 li a:hover {
   background-color: rgb(255, 195, 0);
 }
-
 /* Saving my butt to seprate text because Lord forbid
 I use a <br> tag >:| */
 
 .p-spacing {
   padding-bottom: 75px;
 }
+
+/* Display the image at 100% width, auto height, with 5 px of space, make it a a block element and centre the image, source (https://www.w3schools.com/css/css3_images.asp) */ 
+.imgclass {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/* Just centering our javascript/html button
+button {
+  text-align: center;
+  margin: 40px;
+}
+
