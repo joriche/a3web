@@ -8,14 +8,7 @@
 function changeTxt() {
   document.getElementById("javstxt").innerHTML = "Just kidding";
 }
-// Change color functions
-// Changes color of text upon event 
-function changeClr() {
-    style.color='red';
-}
-function normClr() {
-  style.color='white';
-}
+
 // Change text size function
 function bigTxt() {
   document.getElementById('big').style.fontSize='100px';
