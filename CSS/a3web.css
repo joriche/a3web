@@ -55,7 +55,7 @@ Each image is different, hense the slight variation in name */
   position: relative;
 }
 
-/* hero-phot-a was used on the Geovisualization Page */
+/* hero-photo-a was used on the Geovisualization Page */
 /* This design was utilized from W3Schools, as well as the initial website template */
 
 .hero-photo-a {
@@ -102,6 +102,7 @@ Each image is different, hense the slight variation in name */
   text-align: center;
   font-size: 1vw;
 }
+/* Justin created img text to style the logo in the left corner of each page at set size to work on multiple views */
 .img-text {
   background-image: url(../Images/LOGO2.2.PNG);
   background-color: rgb(0, 0, 0);
@@ -169,7 +170,7 @@ ul {
   font-size: calc(8px + 1vw);
 }
 
-/* Justin owns the li code for the style of the nav bar*/
+/* Justin created the li code for the style of the nav bar*/
 li {
   float: left;
 }
@@ -265,7 +266,7 @@ I use a <br> tag >:| */
 }
 
 /* Container for image text */
-.gallery-description {
+.description-gallery {
   text-align: center;
   background-color: #222;
   padding: 1px 16px;
