@@ -11,7 +11,7 @@ function changeTxt() {
 // Change color functions
 // Changes color of text upon event 
 function changeClr(x) {
-  x.style.color= rgb(255, 195, 0)
+  x.style.color= 'rgb(255, 195, 0)'
 }
 function normClr(x) {
   x.style.color='white'
