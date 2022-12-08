@@ -17,13 +17,20 @@ function changeClr(x) {
 function normClr(x) {
   x.style.color='white'
 }
-
 // Alert functions
 // Causes alert upon event
 function alrt() {
   alert("JavaScript alert")
 }
-<<<<<<< HEAD
+function inpt() {
+  alert("Invalid address");
+}
+
+// Get number function
+// Gives number code
+function catyrs(event) {
+  document.getElementById("cat").innerHTML = event.keyCode;
+}
 
 // Alert function for Geovisualization Page
 function meow() {
@@ -35,8 +42,4 @@ function meow() {
   alert("Have you seen my Dad?")
 }
 
-=======
-function inpt() {
-  alert("Invalid address");
-}
->>>>>>> e93b4dc31235442a4532a064850420b3552dd4f0
+
