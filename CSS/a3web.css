@@ -143,14 +143,11 @@ and remain a formatting staple. Through trial and error, and minor variances, we
 .browser > h3, p {
   text-align: center;
   margin: 4px;
-  /* this was added to adjust the spacing between paragraphs - just testing it out */
-  padding-top: 10px;
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: silver;
 }
 .browsers > h4 {
-  padding-top: 10px;
-  /* this was adjusted - trying to adjust paragraph spacing */
+  padding-top: 5px;
   text-align: center;
   margin: 4px;
   font-size: 0.2vw;
