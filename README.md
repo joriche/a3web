@@ -30,13 +30,6 @@
 # Additional Testing Region - completion currently unconfirmed
 
 # NOTES from Shawn
-## Responsiveness
-### nav bar unreadable when shrunk
-### try min width, hamburger, min font size? 
-### font-size: calc(8px + 1vw)- DONE
-## NAVbar 
-### set width to not stack at max size- DONE
-## Take away <b> tags - ALEX DOING
-## Comment of code ownership - EVERYONE PLS
-## Move button to same line as paragraph - AMANDA DOING
-## Add 9 more Javascript 
+## Take away B tags - DO ON UR PAGES PLS
+## Comment of code ownership - EVERYONE ON THEIR PAGES PLS
+## Add 3 more Javascript 
