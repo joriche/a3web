@@ -2,16 +2,71 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- link to css style sheet and javascript file -->
+<!-- head/title used to define content at the top of the page-->
 <head>
-<title>Web Design</title>
+<title>SQjr Web Design</title>
 <link rel="stylesheet" href="CSS/a3web.css">
+                               
+<!-- responsive design by Justin -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<h1>Web Design</h1>
-<h2>Do you need a website for your business?</h2>
-<p>We have a talented team of individuals with years of experience and expansive portfolios ready to build, update or review your website. Our full stack developers are technically skilled in HTML, CSS and JavaScript, ready to effectively apply creativity, professionalism and functionality to your website. 
-    Our practices ensure accessible web content satisfying all web design standards and laws. Although the agency specializes in featuring cartographic content for the purpose of GIS, we are highly flexible for the right price ready to develop your website from scratch if needed. 
-    We have access to all the tools and skills to have your business shining overnight.  Our team never stops until the job is done. </p>    
-</body>
+<!-- div and article tags adapted from w3schools to create independent content -->  
+<!-- h1 and h3 used to create visual hierarchy of headings-->
+<!-- picture for top of web page -->                                                                  
+<div class="hero-image">
+<div class="hero-text">	  
+<h1>SQjr Consulting, Inc.</h1>
+<h3>GIS Services "Mapping the Future"</h3>
+</div>
+</div>
+
+
+<div class="img-text">	  
+</div>
+
+<!-- unordered html list tag for the navigation bar, using Josh's HTML template which referenced w3schools-->
+<!-- CSS modifications applied to maintain style of page -->
+<ul>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="surveying.html">Surveying</a></li>
+<li><a href="remotesensing.html">Remote Sensing</a></li>
+<li><a href="spatialanalysis.html">Spatial Analysis</a></li>
+<li><a href="geovisualization.html">Geovisualization</a></li>
+<li><a href="programming.html">Programming</a></li>
+<li><a href="webdesign.html">Web Design</a></li>
+<li><a href="databaseprinciples.html">Database Management</a></li>
+</ul>
+
+                                     
+<!-- differing classes, h2, h3 and p tags used to create different elements to select upon-->
+<!-- seperate repetative tags to create numerous lines of text-->                                   
+<!-- bold formatting from Josh's template to enhance text content -->
+                                     
+<article class="all-browsers">
+  <h2><b>SQjr</b></h2>
+<h2 class="p-spacing"><b>Web Design</b></h2>
+</article>
+
+<!-- Description of Web Design services -->
+<article class="browser">
+<p><b>Do you need a website for your business? We have a talented team of individuals with years of experience and expansive portfolios ready to build, update or review your website. Our full stack developers are technically skilled in HTML, CSS and JavaScript, ready to effectively apply creativity, professionalism and functionality to your website. Our practices ensure accessible web content satisfying all web design standards and laws. Although the agency specializes in featuring cartographic content for the purpose of GIS, we are highly flexible for the right price ready to develop your website from scratch if needed. We have access to all the tools and skills to have your business shining overnight.  Our team never stops until the job is done.</b></p>    
+<p class="p-spacing"><b>FOR WEB DESIGN ASSISTANCE CONTACT SQJr</b></p>
+</article>
+
+<!-- description of our team-->
+<article class="browser">
+<h3>Our Team</h3>
+<h3><b>Amanda Sawyer</b></h3>
+<p><b>Programming princess</b></p>
+    <h3><b>Alex Quantz</b></h3>
+<p><b>Wild web designer and database dame </b></p>
+    <h3><b>Justin Jeff</b></h3>
+<p><b>Religious remote sensor and sad surveyor </b></p>
+    <h3><b>Joshua Richer</b></h3>
+<p><b>Geovisulization gangster and spineless spatial analyst </b></p>
+</article>
+    
+    </body>
 </html>
