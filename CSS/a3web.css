@@ -55,6 +55,9 @@ Each image is different, hense the slight variation in name */
   position: relative;
 }
 
+/* hero-phot-a was used on the Geovisualization Page */
+/* This design was utilized from W3Schools, as well as the initial website template */
+
 .hero-photo-a {
   background-image: url("../Images/Qualitative.png");
   background-color: rgb(0, 0, 0);
@@ -65,6 +68,21 @@ Each image is different, hense the slight variation in name */
   background-size: cover;
   position: relative;
 }
+
+/* hero-photo-b was used on the Spatial Analysis Page */
+/* This design was utilized from W3Schools, as well as the initial website template */
+
+.hero-photo-b {
+  background-image: url("../Images/Quantitative.png");
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /* hero-text specifically applies to the image used for the background/header
 - with minor variations in text, but the format remains the same */
 
@@ -125,11 +143,12 @@ and remain a formatting staple. Through trial and error, and minor variances, we
 .browser > h3, p {
   text-align: center;
   margin: 4px;
+  padding-top: 10px
   font-size:1.5vw;
   color: silver;
 }
 .browsers > h4 {
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: center;
   margin: 4px;
   font-size: 0.2vw;
