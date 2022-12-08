@@ -8,7 +8,7 @@
 function changeTxt() {
   document.getElementById("javstxt").innerHTML = "Just kidding";
 }
-}
+
 function changeClr(x) {
   x.style.color='red'
 }
