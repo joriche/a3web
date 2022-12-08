@@ -148,6 +148,7 @@ ul {
   font-size: calc(8px + 1vw);
 }
 
+/* Justin owns the li code for the style of the nav bar */
 li {
   float: left;
 }
@@ -155,7 +156,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 46px;
+  padding: 14px 35.5px;
   text-decoration: none;
 }
 li a:hover {
