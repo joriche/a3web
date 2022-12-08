@@ -31,7 +31,6 @@ function inpt() {
 function catyrs(event) {
   document.getElementById("cat").innerHTML = event.keyCode;
 }
-<<<<<<< HEAD
 
 // Alert function for Geovisualization Page
 function meow() {
@@ -44,5 +43,3 @@ function meow() {
 }
 
 
-=======
->>>>>>> e93b4dc31235442a4532a064850420b3552dd4f0
