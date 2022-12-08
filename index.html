@@ -13,15 +13,14 @@
 <!-- responsive design by Justin -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
+
+<!--amanda - JS for mouse over/out event to change color, reference w3schools-->
 <!-- div and article tags adapted from w3schools to create independent content -->  
-<!-- h1 and h3 used to create visual hierarchy of headings-->                                                                   
-                                                                   
-<!-- meta was referenced from w3schools, specifically from the
+<!-- h1 and h3 used to create visual hierarchy of headings-->                                                                                                                                     
+<!-- josh format image - meta was referenced from w3schools, specifically from the
 image formatting css section that allowed me to crop the image
 to the top of the page, without affecting anything below -->
-
 <div class="hero-image">
 <div class="hero-text">	  
 <h1 onmouseover="changeClr(this)" onmouseout="normClr(this)">SQjr Consulting, Inc.</h1>
@@ -29,12 +28,9 @@ to the top of the page, without affecting anything below -->
 </div>
 </div>
 
-<div class="img-text">	  
-</div>
-
+<!--josh - url list-->
 <!-- unordered html list tag for the navigation bar, using Josh's HTML template which referenced w3schools-->
 <!-- CSS modifications applied to maintain style of page -->
-
 <ul>
 <li><a class="active" href="index.html">Home</a></li>
 <li><a href="surveying.html">Surveying</a></li>
@@ -46,22 +42,19 @@ to the top of the page, without affecting anything below -->
 <li><a href="databaseprinciples.html">Database Management</a></li>
 </ul>
 
-                                     
+<!--amanda - content -->                                     
 <!-- differing classes, h2, h3 and p tags used to create different elements to select upon-->
 <!-- separate repetitive tags to create numerous lines of text-->                                   
-<!-- bold formatting from Josh's template to enhance text content -->
-                                     
+<!-- bold formatting from Josh's template to enhance text content -->                                     
 <article class="all-browsers">
 <h2>SQjr</h2>
 <h2>Home Page</h2>
 </article>
-
 <article class="browser">
 <h4> Our Business </h4>
 <p>SQjr is a global GIS advisory firm specializing in database management, geovisulization, programming, remote sensing, spatial analysis, surveying, and web design. We serve a variety of clients, from private entities to public corporations in a wide range of industries.  We strive to provide our clients with expert advice, knowledge and understanding of the most current geographic information system techniques, and best in class solutions to complicated problems.  For more information on how SQjr can assist your GIS needs, see the above links.  Rarely, we succeed. </p>
 
-<p class="p-spacing"></p>
-
+<!--amanda - content -->     
 <h4>Our Team</h4>
 <h3>Amanda Sawyer</h3>
 <p>Programming princess</p>
@@ -73,10 +66,9 @@ to the top of the page, without affecting anything below -->
 <p>Geovisualization gangster and spineless spatial analyst</p>
 </article>
 
-<!-- footer tag created to employ javascript function from seperate js file, referenced above-->
+<!-- amanda - footer tag created to employ JS on click event-->
 <!-- adapted from w3schools-->
-
-<footer class="the-button">
+<footer>
   <p id="javstxt">Click the button to contact us.<button type="button" onclick="changeTxt()">Click Me!</button> </p>
   </footer>
   
