@@ -8,12 +8,15 @@
 <!-- head/title used to define content at the top of the page-->
 <head>
 <title>SQjr Programming</title>
-<link rel="stylesheet" href="CSS/a3web.css">                              
+<link rel="stylesheet" href="CSS/a3web.css">    
+<script src="JavaScript/main.js"></script> 
 <!-- responsive design by Justin -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body onkeyup="catyrs(event)">
 
+<!--amanda - JS give key value function -->
+<body onkeyup="catyrs(event)">
+ 
 <!--amanda - content-->
 <!-- div and article tags adapted from w3schools to create independent content -->  
 <!-- h1 and h3 used to create visual hierarchy of headings-->                                                                   
@@ -24,11 +27,12 @@
 <h3>GIS Services "Mapping the Future"</h3>
 </div>
 </div>
-
+<!-- alex logo image -->
+<div class="img-text">	  
+</div>
 <--josh - url links -->
 <!-- unordered html list tag for the navigation bar, using Josh's HTML template which referenced w3schools-->
 <!-- CSS modifications applied to maintain style of page -->
-
 <ul>
 <li><a class="active" href="index.html">Home</a></li>
 <li><a href="surveying.html">Surveying</a></li>
@@ -49,7 +53,7 @@
 </article>
 <article class="browser">
 <h2 class="p-spacing">Programming</h2>
-<p>Need a tedious GIS task automated? Welcome to the fast life *vroom vroom*. Our programming specialists/geeks can assist you and your business speed up a variety of GIS chores. Spatial analysis, cartography, data manipulation and more become an easy breezy process once our programmers are involved. From task automation to program creation specified to your needs, let SQjr programmers make your GIS work easy as pie. Don't know what your programming needs are? Here are some examples. Spatial Analysis: Determine geographic characteristics of spatial data with a few simple entries. Cartography: Alter and conform symbology across an entire geodatabase with a few simple selections. Data Manipulation: Add calculated attributes to each feature class in a few simple steps.</p>
+<p id='big'>Need a tedious GIS task automated? Welcome to the fast life *vroom vroom*. Our programming specialists/geeks can assist you and your business speed up a variety of GIS chores. Spatial analysis, cartography, data manipulation and more become an easy breezy process once our programmers are involved. From task automation to program creation specified to your needs, let SQjr programmers make your GIS work easy as pie. Don't know what your programming needs are? Here are some examples. Spatial Analysis: Determine geographic characteristics of spatial data with a few simple entries. Cartography: Alter and conform symbology across an entire geodatabase with a few simple selections. Data Manipulation: Add calculated attributes to each feature class in a few simple steps. Can't see this text? Can't see? <button type="button" onclick="bigTxt()">CLICK HERE</button> </p>
 </article>                     
 <article class="browser">
 <h3>Our Team</h3>
@@ -62,7 +66,11 @@
   <h3>Joshua Richer</h3>
 <p>Geovisualization gangster and spineless spatial analyst</p>
 </article>
-  
 
+<!--amanda - calling key value function-->  
+<article class="browser">
+  <h1 id="cat">Click here and press any key to find your age in cat years...</h1>
+  </article>
+  
   </body>
 </html>
