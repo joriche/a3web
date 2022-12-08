@@ -12,7 +12,6 @@ to the format on the three seperate pages, in order of 1, 2, 3.
 Each image is different, hense the slight variation in name */
 /* Added max-width for responsive design */
 /* hero-image used for home page background */
-
 .hero-image {
   background-image: url("../Images/yukonriver.jpg");
   background-color: rgb(0, 0, 0);
@@ -23,7 +22,6 @@ Each image is different, hense the slight variation in name */
   position: relative;
 }
 /* hero-photo used for surveying page background */
-
 .hero-photo {
   background-image: url("../Images/rtk.jpg");
   background-color: rgb(0, 0, 0);
@@ -35,7 +33,6 @@ Each image is different, hense the slight variation in name */
   position: relative;
 }
 /* hero-picture used for Remote Sensing page background */
-
 .hero-picture {
   background-image: url("../Images/helicopter.jpg");
   background-color: rgb(0, 0, 0);
@@ -47,7 +44,6 @@ Each image is different, hense the slight variation in name */
   position: relative;
 }
 /* zero-picture used for Programming page background */
-
 .zero-picture {
   background-image: url("../Images/view.png");
   background-color: rgb(0, 0, 0);
@@ -106,9 +102,6 @@ Each image is different, hense the slight variation in name */
   text-align: center;
   font-size: 1vw;
 }
-
-/* comment required for this section - where is img-text?  */
-
 .img-text {
   background-image: url(../Images/LOGO2.2.PNG);
   background-color: rgb(0, 0, 0);
@@ -150,11 +143,14 @@ and remain a formatting staple. Through trial and error, and minor variances, we
 .browser > h3, p {
   text-align: center;
   margin: 4px;
-  font-size: 2vw;
+  /* this was added to adjust the spacing between paragraphs - just testing it out */
+  padding-top: 10px;
+  font-size: 1.5vw;
   color: silver;
 }
 .browsers > h4 {
-  padding-top: 5px;
+  padding-top: 10px;
+  /* this was adjusted - trying to adjust paragraph spacing */
   text-align: center;
   margin: 4px;
   font-size: 0.2vw;
@@ -164,7 +160,6 @@ and remain a formatting staple. Through trial and error, and minor variances, we
 /* List format, with a minor modification to colour when adapted from w3schools.
 They just do it so well, why can't we have it? Either way, it's yellow now */
 /* Josh owns ul code, Justin added font-size for responsive design */
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -175,7 +170,6 @@ ul {
 }
 
 /* Justin owns the li code for the style of the nav bar*/
-
 li {
   float: left;
 }
@@ -189,7 +183,6 @@ li a {
 li a:hover {
   background-color: rgb(255, 195, 0);
 }
-
 /* Saving my butt to seprate text because Lord forbid
 I use a <br> tag >:| */
 
@@ -198,7 +191,6 @@ I use a <br> tag >:| */
 }
 
 /* Display the image at 100% width, auto height, with 5 px of space, make it a a block element and centre the image, source (https://www.w3schools.com/css/css3_images.asp) */ 
-
 .imgclass {
   max-width: 100%;
   height: auto;
@@ -209,37 +201,32 @@ I use a <br> tag >:| */
 }
 
 /* Just centering our javascript/html button */
-
 .the-button {
   text-align: center;
 }
 
 /* Alex - formatting gallery photos for Web design page */
-
+/* Code modified from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 * {
   box-sizing: border-box;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-
 .gallery {
   position: relative;
 }
 
 /* Hide the images by default */
-
 .mySlides {
   display: none;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
-
 .cursor {
   cursor: pointer;
 }
 
 /* Next & previous buttons */
-
 .prev,
 .next {
   cursor: pointer;
@@ -257,21 +244,18 @@ I use a <br> tag >:| */
 }
 
 /* Position the "next button" to the right */
-
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
-
+/* Number text (1/4) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -281,7 +265,6 @@ I use a <br> tag >:| */
 }
 
 /* Container for image text */
-
 .gallery-description {
   text-align: center;
   background-color: #222;
@@ -295,17 +278,15 @@ I use a <br> tag >:| */
   clear: both;
 }
 
-/* Six columns side by side */
-
+/* Four columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 25%;
 }
 
 /* Add a transparency effect for thumnbail images */
-
 .demo {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .active,
