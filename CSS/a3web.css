@@ -10,7 +10,7 @@ body {
 /* hero-image, photo and picture apply specifically
 to the format on the three seperate pages, in order of 1, 2, 3.
 Each image is different, hense the slight variation in name */
-/* Justin added max-width for responsive design */
+/* Added max-width for responsive design */
 /* hero-image used for home page background */
 .hero-image {
   background-image: url("../Images/yukonriver.jpg");
