@@ -1,5 +1,5 @@
 // By Amanda 
-// External javascript file to be referenced on index page
+// External javascript file to be referenced on index and programming page
 // Functions defined in javascript file, to be called in main html file
 // All adapted from w3schools
 
@@ -8,7 +8,6 @@
 function changeTxt() {
   document.getElementById("javstxt").innerHTML = "Just kidding";
 }
-
 // Change color functions
 // Changes color of text upon event 
 function changeClr(x) {
@@ -25,8 +24,11 @@ function alrt() {
 function inpt() {
   alert("Invalid address");
 }
-
-
+// Key value function
+// Change text to key value
+function catyrs(event) {
+  document.getElementById("cat").innerHTML = event.keyCode;
+}
 
 
 
