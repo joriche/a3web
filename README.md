@@ -4,9 +4,9 @@
 # PLS mark with DONE upon completion 
 
 ## Alex
-### 2 pages context/HTML - web and data
+### 2 pages context/HTML - web and data - DONE
 ### Aesthetic and consistency
-### Design of logo 
+### Design of logo - DONE
 ### Comments for contributions
 
 ## Amanda
