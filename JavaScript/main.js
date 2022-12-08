@@ -11,10 +11,10 @@ function changeTxt() {
 // Change color functions
 // Changes color of text upon event 
 function changeClr(x) {
-    x.style-color= 'yellow'
+    x.style-color; 'yellow'
 }
 function normClr(x) {
-  x.style-color='white'
+  x.style-color; 'white'
 function normClr() {
   style-color; 'white'
 }
