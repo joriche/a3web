@@ -18,8 +18,11 @@ function normClr(x) {
   x.style.color='white'
 }
 
-// Alert function
+// Alert functions
 // Causes alert upon event
 function alrt() {
   alert("JavaScript alert")
+}
+function inpt() {
+  alert("Invalid address");
 }
