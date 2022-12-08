@@ -15,3 +15,6 @@ function changeClr(x) {
 function normClr(x) {
   x.style.color='black'
 }
+function alrt() {
+  alert("JavaScript alert")
+}
