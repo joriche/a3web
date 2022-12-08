@@ -11,7 +11,7 @@
 
 ## Amanda
 ### 2 pages context/HTML - home and program - DONE 
-### Javascript - its own file, in its own folder 
+### Javascript - its own file, in its own folder - DONE
 ### Error checking - HTML/CSS/Java validators - DONE
 ### Comments for contributions - DONE
 
@@ -32,4 +32,4 @@
 # NOTES from Shawn
 ## Take away B tags - DO ON UR PAGES PLS
 ## Comment of code ownership - EVERYONE ON THEIR PAGES PLS
-## Add 3 more Javascript 
+## Add jQuery to JS file
