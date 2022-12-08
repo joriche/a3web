@@ -18,8 +18,25 @@ function normClr(x) {
   x.style.color='white'
 }
 
-// Alert function
+// Alert functions
 // Causes alert upon event
 function alrt() {
   alert("JavaScript alert")
 }
+<<<<<<< HEAD
+
+// Alert function for Geovisualization Page
+function meow() {
+  alert("Have you seen my baseball?")
+}
+
+// Alert function for Spatial Analysis Page
+function meow() {
+  alert("Have you seen my Dad?")
+}
+
+=======
+function inpt() {
+  alert("Invalid address");
+}
+>>>>>>> e93b4dc31235442a4532a064850420b3552dd4f0

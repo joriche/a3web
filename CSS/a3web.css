@@ -143,11 +143,12 @@ and remain a formatting staple. Through trial and error, and minor variances, we
 .browser > h3, p {
   text-align: center;
   margin: 4px;
+  padding-top: 10px
   font-size:1.5vw;
   color: silver;
 }
 .browsers > h4 {
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: center;
   margin: 4px;
   font-size: 0.2vw;
