@@ -11,7 +11,7 @@
 
 ## Amanda
 ### 2 pages context/HTML - home and program - DONE 
-### Javascript - its own file, in its own folder - DONE
+### Javascript - its own file, in its own folder 
 ### Error checking - HTML/CSS/Java validators - DONE
 ### Comments for contributions - DONE
 
@@ -28,3 +28,16 @@
 ### Comments for contributions
 
 # Additional Testing Region - completion currently unconfirmed
+
+# NOTES from Shawn
+## Responsiveness
+### nav bar unreadable when shrunk
+### try min width, hamburger, min font size? 
+### font-size: calc(8px + 1vw)
+##NAVbar 
+### set width to not stack at max size 
+## Take away <b> tags 
+### replace with CSS font-weight: bold 
+## Comment of code ownership
+## Move button to same line as paragraph 
+## Add 9 more Javascript 
