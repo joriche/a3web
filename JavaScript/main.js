@@ -23,3 +23,14 @@ function normClr(x) {
 function alrt() {
   alert("JavaScript alert")
 }
+
+// Alert function for Geovisualization Page
+function meow() {
+  alert("Have you seen my baseball?")
+}
+
+// Alert function for Spatial Analysis Page
+function meow() {
+  alert("Have you seen my Dad?")
+}
+
