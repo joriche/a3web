@@ -10,7 +10,7 @@ body {
 /* hero-image, photo and picture apply specifically
 to the format on the three seperate pages, in order of 1, 2, 3.
 Each image is different, hense the slight variation in name */
-/* Justin added max-width for responsive design */
+/* Added max-width for responsive design */
 /* hero-image used for home page background */
 .hero-image {
   background-image: url("../Images/yukonriver.jpg");
@@ -136,32 +136,16 @@ and remain a formatting staple. Through trial and error, and minor variances, we
   color: rgb(255, 195, 0);
 }
 
-/* Applies to all images - with the exception of the
-background/header hero-image, photo, picture mentioned previously */
-
-div.gallery {
-  margin: 25px;
-  float: left;
-  width: 400px;
-}
-div.gallery img:hover {
-  border: 1px;
-}
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
 /* List format, with a minor modification to colour when adapted from w3schools.
 They just do it so well, why can't we have it? Either way, it's yellow now */
-
+/* Josh owns ul code, Justin added font-size for responsive design */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  font-size: 1vw;
+  font-size: calc(8px + 1vw);
 }
 
 li {
@@ -195,8 +179,7 @@ I use a <br> tag >:| */
 }
 
 /* Just centering our javascript/html button
-button {
+.the-button {
   text-align: center;
-  margin: 40px;
 }
 

@@ -9,21 +9,20 @@
 <head>
 <title>SQjr Consulting</title>
 <link rel="stylesheet" href="CSS/a3web.css">
-                               
+<script src="JavaScript/main.js"></script>                               
 <!-- responsive design by Justin -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 <!-- div and article tags adapted from w3schools to create independent content -->  
-<!-- h1 and h3 used to create visual hiearchy of headings-->                                                                   
+<!-- h1 and h3 used to create visual hierarchy of headings-->                                                                   
                                                                    
 <!-- meta was referenced from w3schools, specifically from the
 image formatting css section that allowed me to crop the image
 to the top of the page, without affecting anything below -->
 
 <div class="hero-image">
-                       <!-- NEEDS IMAGE, REF FOR STYLE ABOVE -->
 <div class="hero-text">	  
 <h1>SQjr Consulting, Inc.</h1>
 <h3>GIS Services "Mapping the Future"</h3>
@@ -49,15 +48,16 @@ to the top of the page, without affecting anything below -->
 
                                      
 <!-- differing classes, h2, h3 and p tags used to create different elements to select upon-->
-<!-- seperate repatative tags to create numerous lines of text-->                                   
+<!-- separate repetitive tags to create numerous lines of text-->                                   
 <!-- bold formatting from Josh's template to enhance text content -->
                                      
 <article class="all-browsers">
-<h2 id="changeclr"><b>SQjr</b></h2>
-<h2 id="changeclr"><b>Home Page</b></h2>
+<h2><b>SQjr</b></h2>
+<h2><b>Home Page</b></h2>
 </article>
 
 <article class="browser">
+<h4> Our Business </h4>
 <p><b>SQjr is a global GIS advisory firm specializing in database management, geovisulization, programming, remote sensing, spatial analysis, surveying, and web design. </b></p>
 <p><b>We serve a variety of clients, from private entities to public corporations in a wide range of industries</b></p>
 <p><b>We strive to provide our clients with expert advice, knowledge and understanding of the most current geographic information system techniques, and best in class solutions to complicated problems</b></p>
@@ -72,18 +72,16 @@ to the top of the page, without affecting anything below -->
   <h3><b>Justin Jeff</b></h3>
 <p><b>Religious remote sensor and sad surveyor </b></p>
   <h3><b>Joshua Richer</b></h3>
-<p><b>Geovisulization gangster and spineless spatial analyst </b></p>
+<p><b>Geovisualization gangster and spineless spatial analyst </b></p>
 </article>
 
-<!-- class created to employ javascript function from seperate js file, referenced above-->
+<!-- footer tag created to employ javascript function from seperate js file, referenced above-->
 <!-- adapted from w3schools-->
 
-  <article>
-  <script>
-<p id="javstxt">Click the button below to contact us.</p>
-<button type="button" onclick="changeTxt()">Click Here!</button>
-  </script>
-  </article>
-<script src="../JavaScript/main.js"></script>
+<footer class="the-button">
+  <p id="javstxt">Click the button below to contact us.</p>
+  <button type="button" onclick="changeTxt()">Click Me!</button>
+  </footer>
+  
 </body>
 </html>
