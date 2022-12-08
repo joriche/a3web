@@ -12,7 +12,7 @@
 ## Amanda
 ### 2 pages context/HTML - home and program - DONE 
 ### Javascript - its own file, in its own folder - DONE
-### Error checking - HTML/CSS/Java validators
+### Error checking - HTML/CSS/Java validators - DONE
 ### Comments for contributions - DONE
 
 ## Justin
