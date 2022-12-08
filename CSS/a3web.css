@@ -136,22 +136,6 @@ and remain a formatting staple. Through trial and error, and minor variances, we
   color: rgb(255, 195, 0);
 }
 
-/* Applies to all images - with the exception of the
-background/header hero-image, photo, picture mentioned previously */
-
-div.gallery {
-  margin: 25px;
-  float: left;
-  width: 400px;
-}
-div.gallery img:hover {
-  border: 1px;
-}
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
 /* List format, with a minor modification to colour when adapted from w3schools.
 They just do it so well, why can't we have it? Either way, it's yellow now */
 
@@ -195,8 +179,7 @@ I use a <br> tag >:| */
 }
 
 /* Just centering our javascript/html button
-button {
+.the-button {
   text-align: center;
-  margin: 40px;
 }
 
