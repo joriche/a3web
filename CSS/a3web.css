@@ -55,6 +55,16 @@ Each image is different, hense the slight variation in name */
   position: relative;
 }
 
+.hero-photo-a {
+  background-image: url("../Images/helipad.png");
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 /* hero-text specifically applies to the image used for the background/header
 - with minor variations in text, but the format remains the same */
 
