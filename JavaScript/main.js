@@ -22,8 +22,12 @@ function normClr(x) {
 function alrt() {
   alert("JavaScript alert")
 }
+function inpt() {
+  alert("Invalid address");
+}
 
 // Get number function
+// Gives number code
 function catyrs(event) {
   document.getElementById("cat").innerHTML = event.keyCode;
 }
@@ -41,7 +45,4 @@ function meow() {
 
 
 =======
-function inpt() {
-  alert("Invalid address");
-}
 >>>>>>> e93b4dc31235442a4532a064850420b3552dd4f0
